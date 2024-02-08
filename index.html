@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buy AND Sale</title>
+  <link rel="shortcut icon" type="x-icon" href="src/img/salen.png" />
+  <link href="./src/output.css" rel="stylesheet" />
+  <!--font awsome start-->
+  <script src="https://kit.fontawesome.com/98021032cd.js" crossorigin="anonymous"></script>
+  <!--font awsome end-->
+  <!--Bootstrap start-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!--Bootstrap end-->
+
+</head>
+
+<body>
+
+  <div class="grid grid-rows-[10vh_50vh_65vh_85vh_200vh_8vh] bg-black gap-4">
+
+    <div class="sticky top-0 z-50 bg-black/50"><!--serce box-->
+
+      <div class="grid items-center justify-center relative w-full h-full">
+
+        <input type="text" class="w-[94vw] h-[6vh] text-2xl pl-[33px] focus:outline-none" placeholder="Searce">
+
+        <i class="fa-solid fa-magnifying-glass absolute top-[41%] left-[5%] text-[18px] text-gray-500"></i>
+
+      </div>
+
+    </div>
+
+    <div class="grid grid-rows-[65%_35%] gap-2"><!--baner-->
+
+      <div><!--cousoure-->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="src/img/wallpaper.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="src/img/wallpaper.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="src/img/oie_NMdcHzE0sRV4.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-[30%_70%] border border-info-subtle rounded-lg overflow-hidden"><!--add payment-->
+
+        <div class="bg-[url('img/wallet-removebg-preview.png')] bg-center bg-no-repeat"></div>
+        <div>
+          <p class="text-white pl-2">Add payment method to get athority for sale, and boy, something, start your Bisnese
+            now! <a href="#" class="btn btn-warning btn-sm">Add Now</a></p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div
+      class="grid grid-rows-[40px_1fr_1fr_1fr] grid-cols-3 *:border *:border-collapse *:border-[#123838] *:text-white *:text-center">
+      <!--Catogries-->
+
+
+      <div class="col-span-full grid grid-cols-2"> <!--tittle-->
+
+        <div class="grid items-center pl-2 justify-start">
+          <h1>Categories</h1>
+        </div>
+        <div class="grid items-center justify-end pr-2">
+          <h1 class="text-[24px] text-[#ff5e00]">SHOP MORE</h1>
+        </div>
+
+      </div>
+
+      <div class="grid grid-rows-[60%_40%]">
+
+        <div class="bg-[url('img/one.jfif')] bg-cover bg-no-repeat"></div>
+
+        <p>Electronics & Gadgets</p>
+
+      </div>
+
+      <div class="grid grid-rows-[60%_40%]">
+        <div class="bg-[url('img/2ndimg.jfif')] bg-cover bg-no-repeat"></div>
+        <p>Fashion & Apparel</p>
+      </div>
+
+      <div class="grid grid-rows-[60%_40%]">
+        <div class="bg-[url('img/3ndimg.jfif')] bg-cover bg-no-repeat"></div>
+        <p>Home & Living</p>
+      </div>
+
+      <div class="grid grid-rows-[60%_40%]">
+        <div class="bg-[url('img/4thimg.jfif')] bg-cover bg-no-repeat"></div>
+        <p>Beauty & Personal Care</p>
+      </div>
+
+      <div class="grid grid-rows-[60%_40%]">
+        <div class="bg-[url('img/5thimg.jfif')] bg-cover bg-no-repeat"></div>
+        <p>Sports & Outdoor</p>
+      </div>
+
+      <div class="grid grid-rows-[60%_40%]">
+        <div class="bg-[url('img/6thimg.jfif')] bg-cover bg-no-repeat"></div>
+        <p>Books & Media</p>
+      </div>
+
+      <div class="grid grid-rows-[60%_40%]">
+        <div class="bg-[url('img/7thimg.jfif')] bg-cover bg-no-repeat"></div>
+        <p>Toys & Games</p>
+      </div>
+
+      <div class="grid grid-rows-[60%_40%]">
+        <div class="bg-[url('img/8thimg.jfif')] bg-cover bg-no-repeat"></div>
+        <p>Health & Wellness</p>
+      </div>
+
+      <div class="grid grid-rows-[60%_40%]">
+        <div class="bg-[url('img/9thimg.jfif')] bg-cover bg-no-repeat"></div>
+        <p>Automotive & Accessories</p>
+      </div>
+
+    </div>
+
+    <div class="grid grid-rows-[50px_50px_1fr_1fr_1fr] grid-cols-2 *:border *:border-collapse *:border-[#123838]">
+      <!--flach sale-->
+
+      <div class="col-span-full grid grid-cols-2 text-white"> <!--tittle-->
+
+        <div class="grid items-center pl-2">
+          <h1>flash sale</h1>
+        </div>
+        <div class="grid items-center justify-end pr-2">
+          <h1 class="text-[24px] text-[#ff5e00]">SHOP MORE</h1>
+        </div>
+
+      </div>
+
+      <div class="col-span-full bg-[#ff5e00] grid items-center justify-center text-white font-bold">
+        <p class="m-0 text-xl">Time Left Three Day!</p>
+      </div>
+
+      <div class="row-span-3 grid grid-rows-[40%_60%] bg-gray-800 text-white">
+
+        <div class="bg-[url('img/flash.jpg')] bg-cover bg-no-repeat"></div><!--img-->
+
+        <div class="grid grid-rows-[12%_68%_20%]"><!--description-->
+
+          <div class="grid justify-center items-center">
+            <h1 class="text-[20px]">RGB Keyword</h1><!--tittle-->
+          </div>
+
+          <div class="grid justify-center items-center">
+            <p class="text-center">"🌈 Explore our RGB Sale now! From bold Reds to vivid Greens and deep Blues, find
+              your
+              perfect hue. Don't miss out shop today! #RGBSale"
+            </p><!--card body-->
+          </div>
+
+          <div class="grid justify-center items-center"><button type="button" class="btn btn-outline-danger">Buy
+              Now</button><!--buy link--></div>
+
+        </div>
+
+      </div>
+
+      <div class="grid grid-cols-2 grid-rows-2 bg-[#1a1718]">
+        <div class="bg-[url('img/mouse01.jfif')] bg-cover bg-no-repeat"></div>
+        <div class="grid justify-center items-center">
+          <p class="text-white text-[12px]">before: <del class="text-gray-500">500 tk</del><br>Now: <span
+              class="text-[#ff9100]">300 tk</span>
+          </p>
+        </div>
+        <div>
+          <p class="text-white text-[12px] grid justify-center items-center pl-2">dear customer This offer is for a
+            limited time.</p>
+        </div>
+
+        <div class="grid justify-center items-center"><button type="button"
+            class="btn btn-primary w-full h-[50%] btn-sm rounded-pill">Buy
+            Now</button><!--buy link--></div>
+
+      </div>
+
+      <div class="grid grid-cols-2 grid-rows-2 bg-[#1a1718]">
+        <div class="bg-[url('img/mouse02.jfif')] bg-cover bg-no-repeat"></div>
+        <div class="grid justify-center items-center">
+          <p class="text-white text-[12px]">before: <del class="text-gray-500">900 tk</del><br>Now: <span
+              class="text-[#ff9100]">600 tk</span>
+          </p>
+        </div>
+        <div>
+          <p class="text-white text-[12px] grid justify-center items-center pl-2">dear customer This offer is for a
+            limited time.</p>
+        </div>
+
+        <div class="grid justify-center items-center"><button type="button"
+            class="btn btn-primary w-full h-[50%] btn-sm rounded-pill">Buy
+            Now</button><!--buy link--></div>
+
+      </div>
+
+      <div class="grid grid-cols-2 grid-rows-2 bg-[#1a1718]">
+        <div class="bg-[url('img/set01.jfif')] bg-cover bg-no-repeat"></div>
+        <div class="grid justify-center items-center">
+          <p class="text-white text-[12px]">before: <del class="text-gray-500">5300 tk</del><br>Now: <span
+              class="text-[#ff9100]">3000 tk</span>
+          </p>
+        </div>
+        <div>
+          <p class="text-white text-[12px] grid justify-center items-center pl-2">dear customer This offer is for a
+            limited time.</p>
+        </div>
+
+        <div class="grid justify-center items-center"><button type="button"
+            class="btn btn-primary w-full h-[50%] btn-sm rounded-pill">Buy
+            Now</button><!--buy link--></div>
+
+      </div>
+
+    </div>
+
+    <div class="grid grid-rows-[50px_1fr_1fr_1fr_1fr_1fr] grid-cols-2 *:border *:border-collapse *:border-[#123838]">
+      <!--just for you-->
+
+      <div class="col-span-full grid text-white"> <!--tittle-->
+
+        <div class="grid items-center pl-2">
+          <h1>just for you</h1>
+        </div>
+
+      </div>
+      <div>
+        <div class="card h-full w-full">
+          <img src="src/img/headphone.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">1500 tk</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="card h-full w-full">
+          <img src="src/img/headphone02.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">1500 tk</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="card h-full w-full">
+          <img src="src/img/mousepad.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><del class="text-gray-600">1500 tk</del><br>1200 tk</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="card h-full w-full">
+          <img src="src/img/set01.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><span class="text-red-700">10% descound!</span><br><del class="text-gray-700">1500 tk</del><br>1300 tk</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="card h-full w-full">
+          <img src="src/img/headphone.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">1500 tk</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="card h-full w-full">
+          <img src="src/img/headphone.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">1500 tk</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="card h-full w-full">
+          <img src="src/img/headphone.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">1500 tk</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="card h-full w-full">
+          <img src="src/img/headphone.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">1500 tk</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="grid grid-cols-4 *:grid *:justify-center *:items-center *:text-3xl border-t-2 border-[#feffff] sticky bottom-[-2px] bg-gray-700 *:text-white"><!--Bootom navigation-->
+
+      <div><i class="fa-solid fa-house"></i></div>
+      <div><i class="fa-solid fa-cart-shopping"></i></div>
+      <div><i class="fa-solid fa-sliders"></i></div>
+      <div><i class="fa-solid fa-user"></i></div>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
